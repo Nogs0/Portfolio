@@ -120,7 +120,7 @@ p{
 
 .squares-sobre {
     margin: auto;
-    width: 80%;
+    width: 70%;
     padding: 30px;
     background-color: #282A3A;
 }
@@ -143,11 +143,11 @@ p{
 }
 
 .square-1 p {
-    margin-left: 130px;
+    margin-left: 160px;
     height: 10%;
     color: white;
     width: 40%;
-    font-size: 19px;
+    font-size: 20px;
     border: 2px solid #735F32;
     border-radius: 10px;
     padding: 20px 20px 40px 20px;
@@ -168,7 +168,7 @@ p{
 .square-2 img {
     width: 500px;
     height: 450px;
-    margin-left: 80px;
+    margin-left: 160px;
     float: left;
 }
 
@@ -176,7 +176,7 @@ p{
     height: 10%;
     color: white;
     width: 40%;
-    font-size: 19px;
+    font-size: 20px;
     border: 2px solid #735F32;
     border-radius: 10px;
     padding: 20px;
@@ -205,12 +205,12 @@ p{
     height: 10%;
     color: white;
     width: 40%;
-    font-size: 19px;
+    font-size: 20px;
     border: 2px solid #735F32;
     border-radius: 10px;
     padding: 20px;
     text-align: justify;
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 .square-3 p:hover {
@@ -227,14 +227,14 @@ p{
 .square-4 img {
     width: 500px;
     height: 450px;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 .square-4 p {
     height: 10%;
     color: white;
     width: 40%;
-    font-size: 19px;
+    font-size: 20px;
     border: 2px solid #735F32;
     border-radius: 10px;
     padding: 20px;
@@ -251,6 +251,14 @@ p{
     background-color: #282A3A;
     width: 100%;
     text-align: center;
+}
+.facul{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.facul.active{
+    background-color: black;
 }
 
 .squares-faculdade{
@@ -269,13 +277,28 @@ p{
     color: white;
     font-size:20px;
 }
+#galeria{
+    background-color: #282A3A;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.square-galeria-1{
+    display: inline-block;
+}
+.galeria-imgs h1{
+    font-size: 80px;
+    color: #735F32;
+    margin-bottom: 50px;
+}
+
 
 #projetos{
     text-align: center;
     background-color: #282A3A;
     color: white;
     font-size:20px;
-    height: 2000px;
     width: 100%;
 }
 .square-proj-1{
@@ -293,7 +316,7 @@ p{
 .square-proj h1{
     color: #735F32;
     font-size: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .square-proj-1 img{
     margin-top: 50px;
@@ -310,13 +333,28 @@ p{
 }
 #hello{
     width: 200px;
+    margin-top: 50px;
 }
 
 .proj-2 {
     margin-top: 50px;
     width:1080px;
+    margin: 0 auto;
+}
+.proj-2 p{
+    text-align: justify;
+    float: right;
+    width:800px;
+    margin-top: 70px;
 }
 
 .top2{
     float: left;
+    margin-top:  80px;
+}
+
+.proj-2 img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1080px;
 }
